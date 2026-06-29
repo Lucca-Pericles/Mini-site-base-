@@ -1,0 +1,48 @@
+body {
+    background-color: #5ca7cd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+
+.Container {
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Container input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+.Container button {
+    width: 100px;
+    padding: 10px;
+    background-color: #5ca7cd;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.Container button:hover {
+    background-color: #45a096;
+}
+
+.cadastro {
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Obras PRO-MAX</title>
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script src="script.js" defer></script>
+
+<link rel="stylesheet" href="./Css/home.css">
+
+</head>
+<body>
+
+<header>
+
+    <h1>Obras PRO-MAX</h1>
+
+    <input
+        id="inputBusca"
+        type="text"
+        placeholder="Digite o que deseja..."
+    >
+
+    <div id="icone-carrinho" class="icone-carrinho">
+        <button onclick="AbrirCarrinho()">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <span class="contador" id="contador">0</span>
+        </button>
+    </div>
+
+</header>
+
+<section class="categorias">
+
+    <div class="circulo">
+        <button class="btn" onclick="filtroCategoria('Telha')">Telha</button>
+    </div>
+
+    <div class="circulo">
+        <button class="btn" onclick="filtroCategoria('Piso')">Piso</button>
+    </div>
+
+    <div class="circulo">
+        <button class="btn" onclick="filtroCategoria('Tinta')">Tinta</button>
+    </div>
+
+    <div class="circulo">
+        <button class="btn" onclick="filtroCategoria('Parafuso')">Parafuso</button>
+    </div>
+
+    <div class="circulo">
+        <button class="btn" onclick="filtroCategoria('Cimento')">Cimento</button>
+    </div>
+
+</section>
+
+<main>
+
+    <h2>Produtos disponíveis</h2>
+
+    <div class="cards" id="produtos">
+
+    </div>
+
+</main>
+
+<aside id="carrinho" class="sidebar-carrinho">
+    <h2>Itens do Carrinho</h2>
+    <button onclick="FecharCarrinho()">Fechar</button>
+
+    <div id="itensCarrinho"></div>
+
+</aside>
+
+
+</body>
+</html>

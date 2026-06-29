@@ -1,0 +1,122 @@
+[
+    {
+        "id": 1,
+        "nome": "Tinta Preta",
+        "descricao": "Material de Obra para a construção de obras",
+        "preco": 100.00,
+        "quantidade": 100,
+        "categoria": "Tinta"
+    },
+    {
+        "id": 2,
+        "nome": "Tinta Roxa",
+        "descricao": "Material de Obra 2 para a construção de obras",
+        "preco": 100.00,
+        "quantidade": 200,
+        "categoria": "Tinta"
+    },
+    {
+        "id": 3,
+        "nome": "Telhas Metálicas",
+        "descricao": "Material de Obra 3 para a construção de obras",
+        "preco": 340.00,
+        "quantidade": 300,
+        "categoria": "Telha"
+    },
+    {
+        "id": 4,
+        "nome": "Telhas de Ceramica",
+        "descricao": "Material de Obra 4 para a construção de obras",
+        "preco": 500.00,
+        "quantidade": 400,
+        "categoria": "Telha"
+    },
+    {
+        "id": 5,
+        "nome": "Parafuso Allen",
+        "descricao": "Material de Obra 5 para a construção de obras",
+        "preco": 0.35,
+        "quantidade": 500,
+        "categoria": "Parafuso"
+    },
+    {
+        "id": 6,
+        "nome": "Chumbador",
+        "descricao": "Material de Obra 6 para a construção de obras",
+        "preco": 0.55,
+        "quantidade": 600,
+        "categoria": "Parafuso"
+    },
+    {
+        "id": 7,
+        "nome": "Parafuso Soberba",
+        "descricao": "Material de Obra 7 para a construção de obras",
+        "preco": 0.45,
+        "quantidade": 700,
+        "categoria": "Parafuso"
+    },
+    {
+        "id": 8,
+        "nome": "Parafuso Máquina",
+        "descricao": "Material de Obra 8 para a construção de obras",
+        "preco": 0.54,
+        "quantidade": 800,
+        "categoria": "Parafuso"
+    },
+    {
+        "id": 9,
+        "nome": "Parafuso Máquina",
+        "descricao": "Material de Obra 9 para a construção de obras",
+        "preco": 0.66,
+        "quantidade": 900,
+        "categoria": "Parafuso"
+    },
+    {
+        "id": 10,
+        "nome": "Piso Cerâmico",
+        "descricao": "Material de Obra 10 para a construção de obras",
+        "preco": 35.00,
+        "quantidade": 1000,
+        "categoria": "Piso"
+    },
+    {
+        "id": 11,
+        "nome": "Piso Metálico",
+        "descricao": "Material de Obra 11 para a construção de obras",
+        "preco": 62.00,
+        "quantidade": 1100,
+        "categoria": "Piso"
+    },
+    {
+        "id": 12,
+        "nome": "Piso de Madeira",
+        "descricao": "Material de Obra 12 para a construção de obras",
+        "preco": 90.00,
+        "quantidade": 1200,
+        "categoria": "Piso"
+    },
+    {
+        "id": 13,
+        "nome": "Piso de Madeira",
+        "descricao": "Material de Obra 13 para a construção de obras",
+        "preco": 90.00,
+        "quantidade": 1300,
+        "categoria": "Piso"
+    },
+    {
+        "id": 14,
+        "nome": "Cimento Portland Comum (CP-I)",
+        "descricao": "Material de Obra 14 para a construção de obras",
+        "preco": 37.00,
+        "quantidade": 1400,
+        "categoria": "Cimento"
+    },
+    {
+        "id": 15,
+        "nome": "Cimento Portland Composto (CP-II)",
+        "descricao": "Material de Obra 15 para a construção de obras",
+        "preco": 35.00,
+        "quantidade": 1500,
+        "categoria": "Cimento"
+    }
+]
